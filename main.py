@@ -17,5 +17,6 @@ for num in range(lower, upper + 1):
        sum += digit ** order
        temp //= 10
 
+   # Comments
    if num == sum:
        print(num)
